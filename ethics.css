@@ -1,0 +1,96 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar, .navbar-default{
+	border-bottom: 1px solid #aaa;
+}
+
+p, h1{
+	font-family: "Raleway", sans-serif;
+}
+
+h1{
+	font-size: 300%;
+}
+
+p{
+	font-size: 170%;
+	margin-bottom: 5%;
+	line-height: 200%;
+}
+
+blockquote{
+	font-size: 150%;
+	font-style: italic;
+	border-left-color: rgba(200, 0, 0, 0.4);
+	border-left-width: 5px;
+	margin-bottom: 5%;
+	display: flex;
+	quotes: "“" "”";
+	font-family: Georgia;
+}
+
+.container > ul, ol{
+	margin-bottom: 5%;
+}
+
+.container > ul > li, ol > li{
+	font-size: 160%;
+	margin-bottom: 2%;
+}
+
+figure{
+	width: 30%;
+	padding-bottom: 3%;
+}
+
+.fig-right{
+	float: right;
+}
+
+.fig-left{
+	float: left;
+	padding-right: 5%;
+}
+
+figure figcaption{
+	font-size: 120%;
+	font-style: italic;
+	width: 85%;
+}
+
+.fig-right > figcaption{
+	text-align: right;
+	margin-left: auto;
+}
+
+.fig-right > img{
+	display: flex;
+	margin-left: auto;
+}
+
+.phil1{
+	width: 80%;
+}
+
+.phil2{
+	width: 60%;
+}
+
+.phil3{
+	width: 100%
+}
+
+.phil4{
+	width: 70%;
+}
+
+.jury{
+	width: 100%;
+}
+
+.book{
+	width: 75%;
+}
